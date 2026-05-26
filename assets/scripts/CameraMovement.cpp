@@ -5,9 +5,9 @@
 #include <ZeusEngineCore/input/KeyCodes.h>
 #include "components/Components.h"
 
-REGISTER_COMPONENT(CameraMov,
+/*REGISTER_COMPONENT(CameraMov,
                    FIELD(CameraMov, sensitivity),
-);
+);*/
 
 class CameraMovement : public ZEN::ISystem {
     bool m_isGrounded{false};

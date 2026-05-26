@@ -3,9 +3,9 @@
 #include <ZeusEngineCore/engine/Scene.h>
 #include "components/Components.h"
 
-REGISTER_COMPONENT(Test,
+/*REGISTER_COMPONENT(Test,
     FIELD(Test, test),
-);
+);*/
 
 class TestSystem : public ZEN::ISystem {
     ~TestSystem() override = default;
