@@ -5,12 +5,12 @@
 #include <ZeusEngineCore/input/KeyCodes.h>
 #include "components/Components.h"
 
-REGISTER_COMPONENT(Player,
+/*REGISTER_COMPONENT(Player,
                    FIELD(Player, health),
                    FIELD(Player, speed),
                    FIELD(Player, jumpImpulse),
                    FIELD(Player, rotationSpeed)
-);
+);*/
 
 class MovementSystem : public ZEN::ISystem {
     bool m_isGrounded{false};
