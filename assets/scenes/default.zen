@@ -1,19 +1,41 @@
 Scene: Default
 Entities:
-  - Entity: 3392967503646544191
+  - Entity: 18289089832016374061
     TagComponent:
-      Tag: Cube
+      Tag: Directional Light
     TransformComponent:
-      LocalPosition: [2.0053203, -0.33136934, -4.5682473]
-      LocalRotation: [0.14906345, -0.34743106, 0.056043893, 0.92408377]
-      LocalScale: [0.9999997, 0.9999994, 0.9999987]
-    MeshComponent:
-      MeshID: 1
-    MaterialComponent:
-      MaterialID: 4
-    RuntimeComponents:
-      {}
-  - Entity: 394338958074048623
+      LocalPosition: [0, 0, 0]
+      LocalRotation: [0, 0, 0, 1]
+      LocalScale: [1, 1, 1]
+    DirLightComponent:
+      Ambient: [0.5, 0.5, 0.5]
+      isPrimary: true
+  - Entity: 506528482630276759
+    TagComponent:
+      Tag: Scene Camera
+    TransformComponent:
+      LocalPosition: [-2.5731733, 1.9914085, -3.130949]
+      LocalRotation: [-0.19907828, -0.4536787, -0.104740106, 0.86230683]
+      LocalScale: [1, 1, 1]
+    SceneCameraComponent:
+      Aspect: 1.8768328
+      Fov: 1.0471976
+      Near: 0.1
+      Far: 100
+  - Entity: 3682868824618138168
+    TagComponent:
+      Tag: Primary Camera
+    TransformComponent:
+      LocalPosition: [0, 0, 5]
+      LocalRotation: [0, 0, 0, 1]
+      LocalScale: [1, 1, 1]
+    CameraComponent:
+      Aspect: 1.7777778
+      Fov: 1.0471976
+      Near: 0.1
+      Far: 100
+      isPrimary: true
+  - Entity: 15812016636983832581
     TagComponent:
       Tag: Cube
     TransformComponent:
@@ -23,7 +45,7 @@ Entities:
     MeshComponent:
       MeshID: 7
     MaterialComponent:
-      MaterialID: 153315866017816556
+      MaterialID: 10448960652612727059
     RigidBodyComponent:
       MotionType: 2
       Mass: 1
@@ -40,46 +62,14 @@ Entities:
       HalfExtents: [1, 1, 1]
       Offset: [0, 0, 0]
       IsTrigger: false
-    RuntimeComponents:
-      {}
-  - Entity: 15113151469075167149
+  - Entity: 14191745926533298816
     TagComponent:
-      Tag: Primary Camera
+      Tag: Sphere
     TransformComponent:
-      LocalPosition: [0, 0, 5]
+      LocalPosition: [0, 0, -5]
       LocalRotation: [0, 0, 0, 1]
       LocalScale: [1, 1, 1]
-    CameraComponent:
-      Aspect: 1.7777778
-      Fov: 1.0471976
-      Near: 0.1
-      Far: 100
-      isPrimary: true
-    RuntimeComponents:
-      {}
-  - Entity: 8373710213504209788
-    TagComponent:
-      Tag: Scene Camera
-    TransformComponent:
-      LocalPosition: [4.0010533, 1.8746316, -0.31198168]
-      LocalRotation: [-0.13540938, 0.20168443, 0.028165104, 0.9696362]
-      LocalScale: [1, 1, 1]
-    SceneCameraComponent:
-      Aspect: 1.8181819
-      Fov: 1.0471976
-      Near: 0.1
-      Far: 100
-    RuntimeComponents:
-      {}
-  - Entity: 10162381139530385055
-    TagComponent:
-      Tag: Directional Light
-    TransformComponent:
-      LocalPosition: [0, 0, 0]
-      LocalRotation: [0, 0, 0, 1]
-      LocalScale: [1, 1, 1]
-    DirLightComponent:
-      Ambient: [0.5, 0.5, 0.5]
-      isPrimary: true
-    RuntimeComponents:
-      {}
+    MeshComponent:
+      MeshID: 3
+    MaterialComponent:
+      MaterialID: 4

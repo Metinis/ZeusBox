@@ -1,32 +1,78 @@
 Assets: Default
 Meshes:
-  - Mesh: 3
-    Name: Sphere
-    Path: /assets/meshes/3.bin
-  - Mesh: 2
-    Name: Quad
-    Path: /assets/meshes/2.bin
-  - Mesh: 7
-    Name: Skybox
-    Path: /assets/meshes/7.bin
   - Mesh: 1
     Name: Cube
     Path: /assets/meshes/1.bin
+  - Mesh: 7
+    Name: Skybox
+    Path: /assets/meshes/7.bin
+  - Mesh: 2
+    Name: Quad
+    Path: /assets/meshes/2.bin
+  - Mesh: 3
+    Name: Sphere
+    Path: /assets/meshes/3.bin
 Textures:
-  - Texture: 14166505603537160630
+  - Texture: 1946391685265307567
     Name: ""
     Path: /home/metinis/Denio/ProjectZeus/ZeusBox/assets/textures/skybox/
-    Type: Cubemap
-    Mip: false
-    Size: 0
-    AbsPath: false
+    Type: 4
+    Format: 37
     Dimensions: [0, 0]
-Shaders:
-  []
+    Size: 0
+    Mip: false
+    AbsPath: false
+    SamplerInfo:
+      MagFilter: 1
+      MinFilter: 1
+      MipmapMode: 1
+      AddressModeU: 2
+      AddressModeV: 2
+      AddressModeW: 2
+      MipLodBias: 0
+      MinLod: 0
+      MaxLod: 1
+      AnisotropyEnable: false
+      MaxAnisotropy: 1
+      CompareEnable: false
+      CompareOp: 7
+      BorderColor: 2
+      UnnormalizedCoordinates: false
 Materials:
-  - Material: 153315866017816556
+  - Material: 4
+    Name: Default
+    Texture: 0
+    MetallicTexture: 0
+    RoughnessTexture: 0
+    NormalTexture: 0
+    AoTexture: 0
+    Albedo: [1, 0, 1]
+    Metallic: 0.52
+    Roughness: 0.08
+    AO: 1
+    UseAlbedo: false
+    UseMetallic: false
+    UseRoughness: false
+    UseNormal: false
+    UseAO: false
+    PipelineInfo:
+      VertexShader: /shaders/vulkan-shaders/pbrLighting.vert.spv
+      FragmentShader: /shaders/vulkan-shaders/pbrLighting.frag.spv
+      Topology: 3
+      PolygonMode: 0
+      CullMode: 2
+      FrontFace: 0
+      Samples: 1
+      MultisamplingEnabled: false
+      BlendingEnabled: false
+      BlendingAdditive: false
+      BlendingAlpha: false
+      DepthTestEnabled: true
+      DepthWriteEnabled: true
+      DepthCompareOp: 6
+  - Material: 10448960652612727059
     Name: ""
-    Texture: 14166505603537160630
+    Texture: 1946391685265307567
     MetallicTexture: 0
     RoughnessTexture: 0
     NormalTexture: 0
@@ -40,19 +86,18 @@ Materials:
     UseRoughness: false
     UseNormal: false
     UseAO: false
-  - Material: 4
-    Name: Default
-    Texture: 6
-    MetallicTexture: 0
-    RoughnessTexture: 0
-    NormalTexture: 0
-    AoTexture: 0
-    Albedo: [1, 0, 0]
-    Metallic: 0.21
-    Roughness: 0.26
-    AO: 1
-    UseAlbedo: false
-    UseMetallic: false
-    UseRoughness: false
-    UseNormal: false
-    UseAO: false
+    PipelineInfo:
+      VertexShader: /shaders/vulkan-shaders/skybox.vert.spv
+      FragmentShader: /shaders/vulkan-shaders/skybox.frag.spv
+      Topology: 3
+      PolygonMode: 0
+      CullMode: 2
+      FrontFace: 0
+      Samples: 1
+      MultisamplingEnabled: false
+      BlendingEnabled: false
+      BlendingAdditive: false
+      BlendingAlpha: false
+      DepthTestEnabled: false
+      DepthWriteEnabled: false
+      DepthCompareOp: 6
