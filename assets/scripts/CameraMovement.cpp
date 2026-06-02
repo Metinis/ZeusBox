@@ -1,13 +1,14 @@
 #include <iostream>
-#include <ZeusEngineCore/scripting/ISystem.h>
 #include <ZeusEngineCore/engine/Scene.h>
 #include <ZeusEngineCore/input/Input.h>
 #include <ZeusEngineCore/input/KeyCodes.h>
+#include <ZeusEngineCore/scripting/ISystem.h>
 #include "components/Components.h"
+#include "ZeusEngineCore/core/Application.h"
 
-/*REGISTER_COMPONENT(CameraMov,
+REGISTER_COMPONENT(CameraMov,
                    FIELD(CameraMov, sensitivity),
-);*/
+);
 
 class CameraMovement : public ZEN::ISystem {
     bool m_isGrounded{false};

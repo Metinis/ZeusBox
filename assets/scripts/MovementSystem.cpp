@@ -4,13 +4,14 @@
 #include <ZeusEngineCore/input/Input.h>
 #include <ZeusEngineCore/input/KeyCodes.h>
 #include "components/Components.h"
+#include "ZeusEngineCore/core/Application.h"
 
-/*REGISTER_COMPONENT(Player,
+REGISTER_COMPONENT(Player,
                    FIELD(Player, health),
                    FIELD(Player, speed),
                    FIELD(Player, jumpImpulse),
                    FIELD(Player, rotationSpeed)
-);*/
+);
 
 class MovementSystem : public ZEN::ISystem {
     bool m_isGrounded{false};

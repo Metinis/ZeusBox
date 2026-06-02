@@ -1,19 +1,177 @@
 Assets: Default
 Meshes:
-  - Mesh: 1
-    Name: Cube
-    Path: /assets/meshes/1.bin
-  - Mesh: 7
-    Name: Skybox
-    Path: /assets/meshes/7.bin
+  - Mesh: 3340909878318106052
+    Name: part6_part6_0
+    Path: /assets/meshes/3340909878318106052.bin
+  - Mesh: 18381568564356138819
+    Name: part3_part3_0
+    Path: /assets/meshes/18381568564356138819.bin
+  - Mesh: 4080922438691863439
+    Name: part2_part2_0
+    Path: /assets/meshes/4080922438691863439.bin
+  - Mesh: 5201743453319717376
+    Name: part9_part9_0
+    Path: /assets/meshes/5201743453319717376.bin
+  - Mesh: 9432665841399292637
+    Name: part7_part7_0
+    Path: /assets/meshes/9432665841399292637.bin
+  - Mesh: 11100416845134573907
+    Name: part10_part10_0
+    Path: /assets/meshes/11100416845134573907.bin
   - Mesh: 2
     Name: Quad
     Path: /assets/meshes/2.bin
+  - Mesh: 1
+    Name: Cube
+    Path: /assets/meshes/1.bin
+  - Mesh: 7370744437672548073
+    Name: part11_part11_0
+    Path: /assets/meshes/7370744437672548073.bin
+  - Mesh: 4773709380032959059
+    Name: part5_part5_0
+    Path: /assets/meshes/4773709380032959059.bin
+  - Mesh: 12976366556202397618
+    Name: part4_part4_0
+    Path: /assets/meshes/12976366556202397618.bin
+  - Mesh: 7
+    Name: Skybox
+    Path: /assets/meshes/7.bin
+  - Mesh: 931102190149679353
+    Name: part1_part1_0
+    Path: /assets/meshes/931102190149679353.bin
   - Mesh: 3
     Name: Sphere
     Path: /assets/meshes/3.bin
+  - Mesh: 2075016809373895794
+    Name: part8_part8_0
+    Path: /assets/meshes/2075016809373895794.bin
 Textures:
-  - Texture: 1946391685265307567
+  - Texture: 8669279097889568626
+    Name: ""
+    Path: /assets/textures/8669279097889568626.bin
+    Type: 3
+    Format: 37
+    Dimensions: [786774, 0]
+    Size: 786774
+    Mip: false
+    AbsPath: false
+    SamplerInfo:
+      MagFilter: 1
+      MinFilter: 1
+      MipmapMode: 1
+      AddressModeU: 0
+      AddressModeV: 0
+      AddressModeW: 0
+      MipLodBias: 0
+      MinLod: 0
+      MaxLod: 1000
+      AnisotropyEnable: false
+      MaxAnisotropy: 16
+      CompareEnable: false
+      CompareOp: 7
+      BorderColor: 3
+      UnnormalizedCoordinates: false
+  - Texture: 8834980684302373121
+    Name: ""
+    Path: /assets/textures/8834980684302373121.bin
+    Type: 3
+    Format: 37
+    Dimensions: [893999, 0]
+    Size: 893999
+    Mip: false
+    AbsPath: false
+    SamplerInfo:
+      MagFilter: 1
+      MinFilter: 1
+      MipmapMode: 1
+      AddressModeU: 0
+      AddressModeV: 0
+      AddressModeW: 0
+      MipLodBias: 0
+      MinLod: 0
+      MaxLod: 1000
+      AnisotropyEnable: false
+      MaxAnisotropy: 16
+      CompareEnable: false
+      CompareOp: 7
+      BorderColor: 3
+      UnnormalizedCoordinates: false
+  - Texture: 7780656463292541893
+    Name: ""
+    Path: /assets/textures/7780656463292541893.bin
+    Type: 3
+    Format: 37
+    Dimensions: [1023374, 0]
+    Size: 1023374
+    Mip: false
+    AbsPath: false
+    SamplerInfo:
+      MagFilter: 1
+      MinFilter: 1
+      MipmapMode: 1
+      AddressModeU: 0
+      AddressModeV: 0
+      AddressModeW: 0
+      MipLodBias: 0
+      MinLod: 0
+      MaxLod: 1000
+      AnisotropyEnable: false
+      MaxAnisotropy: 16
+      CompareEnable: false
+      CompareOp: 7
+      BorderColor: 3
+      UnnormalizedCoordinates: false
+  - Texture: 11250493874203996171
+    Name: ""
+    Path: /assets/textures/11250493874203996171.bin
+    Type: 3
+    Format: 37
+    Dimensions: [716592, 0]
+    Size: 716592
+    Mip: false
+    AbsPath: false
+    SamplerInfo:
+      MagFilter: 1
+      MinFilter: 1
+      MipmapMode: 1
+      AddressModeU: 0
+      AddressModeV: 0
+      AddressModeW: 0
+      MipLodBias: 0
+      MinLod: 0
+      MaxLod: 1000
+      AnisotropyEnable: false
+      MaxAnisotropy: 16
+      CompareEnable: false
+      CompareOp: 7
+      BorderColor: 3
+      UnnormalizedCoordinates: false
+  - Texture: 15715231088612636769
+    Name: ""
+    Path: /assets/textures/15715231088612636769.bin
+    Type: 3
+    Format: 37
+    Dimensions: [993423, 0]
+    Size: 993423
+    Mip: false
+    AbsPath: false
+    SamplerInfo:
+      MagFilter: 1
+      MinFilter: 1
+      MipmapMode: 1
+      AddressModeU: 0
+      AddressModeV: 0
+      AddressModeW: 0
+      MipLodBias: 0
+      MinLod: 0
+      MaxLod: 1000
+      AnisotropyEnable: false
+      MaxAnisotropy: 16
+      CompareEnable: false
+      CompareOp: 7
+      BorderColor: 3
+      UnnormalizedCoordinates: false
+  - Texture: 10946645381958272178
     Name: ""
     Path: /home/metinis/Denio/ProjectZeus/ZeusBox/assets/textures/skybox/
     Type: 4
@@ -38,19 +196,169 @@ Textures:
       CompareOp: 7
       BorderColor: 2
       UnnormalizedCoordinates: false
+  - Texture: 13120673346913734353
+    Name: ""
+    Path: /assets/textures/13120673346913734353.bin
+    Type: 3
+    Format: 37
+    Dimensions: [961989, 0]
+    Size: 961989
+    Mip: false
+    AbsPath: false
+    SamplerInfo:
+      MagFilter: 1
+      MinFilter: 1
+      MipmapMode: 1
+      AddressModeU: 0
+      AddressModeV: 0
+      AddressModeW: 0
+      MipLodBias: 0
+      MinLod: 0
+      MaxLod: 1000
+      AnisotropyEnable: false
+      MaxAnisotropy: 16
+      CompareEnable: false
+      CompareOp: 7
+      BorderColor: 3
+      UnnormalizedCoordinates: false
+  - Texture: 9475910328733077684
+    Name: ""
+    Path: /assets/textures/9475910328733077684.bin
+    Type: 3
+    Format: 37
+    Dimensions: [780414, 0]
+    Size: 780414
+    Mip: false
+    AbsPath: false
+    SamplerInfo:
+      MagFilter: 1
+      MinFilter: 1
+      MipmapMode: 1
+      AddressModeU: 0
+      AddressModeV: 0
+      AddressModeW: 0
+      MipLodBias: 0
+      MinLod: 0
+      MaxLod: 1000
+      AnisotropyEnable: false
+      MaxAnisotropy: 16
+      CompareEnable: false
+      CompareOp: 7
+      BorderColor: 3
+      UnnormalizedCoordinates: false
+  - Texture: 3408104290112031311
+    Name: ""
+    Path: /assets/textures/3408104290112031311.bin
+    Type: 3
+    Format: 37
+    Dimensions: [858304, 0]
+    Size: 858304
+    Mip: false
+    AbsPath: false
+    SamplerInfo:
+      MagFilter: 1
+      MinFilter: 1
+      MipmapMode: 1
+      AddressModeU: 0
+      AddressModeV: 0
+      AddressModeW: 0
+      MipLodBias: 0
+      MinLod: 0
+      MaxLod: 1000
+      AnisotropyEnable: false
+      MaxAnisotropy: 16
+      CompareEnable: false
+      CompareOp: 7
+      BorderColor: 3
+      UnnormalizedCoordinates: false
+  - Texture: 9195696362344484936
+    Name: ""
+    Path: /assets/textures/9195696362344484936.bin
+    Type: 3
+    Format: 37
+    Dimensions: [846135, 0]
+    Size: 846135
+    Mip: false
+    AbsPath: false
+    SamplerInfo:
+      MagFilter: 1
+      MinFilter: 1
+      MipmapMode: 1
+      AddressModeU: 0
+      AddressModeV: 0
+      AddressModeW: 0
+      MipLodBias: 0
+      MinLod: 0
+      MaxLod: 1000
+      AnisotropyEnable: false
+      MaxAnisotropy: 16
+      CompareEnable: false
+      CompareOp: 7
+      BorderColor: 3
+      UnnormalizedCoordinates: false
+  - Texture: 4178375517233551236
+    Name: ""
+    Path: /assets/textures/4178375517233551236.bin
+    Type: 3
+    Format: 37
+    Dimensions: [872257, 0]
+    Size: 872257
+    Mip: false
+    AbsPath: false
+    SamplerInfo:
+      MagFilter: 1
+      MinFilter: 1
+      MipmapMode: 1
+      AddressModeU: 0
+      AddressModeV: 0
+      AddressModeW: 0
+      MipLodBias: 0
+      MinLod: 0
+      MaxLod: 1000
+      AnisotropyEnable: false
+      MaxAnisotropy: 16
+      CompareEnable: false
+      CompareOp: 7
+      BorderColor: 3
+      UnnormalizedCoordinates: false
+  - Texture: 852473424298458097
+    Name: ""
+    Path: /assets/textures/852473424298458097.bin
+    Type: 3
+    Format: 37
+    Dimensions: [987753, 0]
+    Size: 987753
+    Mip: false
+    AbsPath: false
+    SamplerInfo:
+      MagFilter: 1
+      MinFilter: 1
+      MipmapMode: 1
+      AddressModeU: 0
+      AddressModeV: 0
+      AddressModeW: 0
+      MipLodBias: 0
+      MinLod: 0
+      MaxLod: 1000
+      AnisotropyEnable: false
+      MaxAnisotropy: 16
+      CompareEnable: false
+      CompareOp: 7
+      BorderColor: 3
+      UnnormalizedCoordinates: false
 Materials:
-  - Material: 4
-    Name: Default
-    Texture: 0
+  - Material: 6417976168700838670
+    Name: part5
+    Texture: 4178375517233551236
     MetallicTexture: 0
     RoughnessTexture: 0
     NormalTexture: 0
     AoTexture: 0
-    Albedo: [1, 0, 1]
-    Metallic: 0.52
-    Roughness: 0.08
+    Albedo: [1, 1, 1]
+    Metallic: 0
+    Roughness: 1
     AO: 1
-    UseAlbedo: false
+    UseAlbedo: true
     UseMetallic: false
     UseRoughness: false
     UseNormal: false
@@ -70,9 +378,164 @@ Materials:
       DepthTestEnabled: true
       DepthWriteEnabled: true
       DepthCompareOp: 6
-  - Material: 10448960652612727059
+  - Material: 6081824213019144241
+    Name: part11
+    Texture: 8834980684302373121
+    MetallicTexture: 0
+    RoughnessTexture: 0
+    NormalTexture: 0
+    AoTexture: 0
+    Albedo: [1, 1, 1]
+    Metallic: 0
+    Roughness: 1
+    AO: 1
+    UseAlbedo: true
+    UseMetallic: false
+    UseRoughness: false
+    UseNormal: false
+    UseAO: false
+    PipelineInfo:
+      VertexShader: /shaders/vulkan-shaders/pbrLighting.vert.spv
+      FragmentShader: /shaders/vulkan-shaders/pbrLighting.frag.spv
+      Topology: 3
+      PolygonMode: 0
+      CullMode: 2
+      FrontFace: 0
+      Samples: 1
+      MultisamplingEnabled: false
+      BlendingEnabled: false
+      BlendingAdditive: false
+      BlendingAlpha: false
+      DepthTestEnabled: true
+      DepthWriteEnabled: true
+      DepthCompareOp: 6
+  - Material: 16098739586074958704
+    Name: part6
+    Texture: 8669279097889568626
+    MetallicTexture: 0
+    RoughnessTexture: 0
+    NormalTexture: 0
+    AoTexture: 0
+    Albedo: [1, 1, 1]
+    Metallic: 0
+    Roughness: 1
+    AO: 1
+    UseAlbedo: true
+    UseMetallic: false
+    UseRoughness: false
+    UseNormal: false
+    UseAO: false
+    PipelineInfo:
+      VertexShader: /shaders/vulkan-shaders/pbrLighting.vert.spv
+      FragmentShader: /shaders/vulkan-shaders/pbrLighting.frag.spv
+      Topology: 3
+      PolygonMode: 0
+      CullMode: 2
+      FrontFace: 0
+      Samples: 1
+      MultisamplingEnabled: false
+      BlendingEnabled: false
+      BlendingAdditive: false
+      BlendingAlpha: false
+      DepthTestEnabled: true
+      DepthWriteEnabled: true
+      DepthCompareOp: 6
+  - Material: 2470082486327820721
+    Name: part7
+    Texture: 13120673346913734353
+    MetallicTexture: 0
+    RoughnessTexture: 0
+    NormalTexture: 0
+    AoTexture: 0
+    Albedo: [1, 1, 1]
+    Metallic: 0
+    Roughness: 1
+    AO: 1
+    UseAlbedo: true
+    UseMetallic: false
+    UseRoughness: false
+    UseNormal: false
+    UseAO: false
+    PipelineInfo:
+      VertexShader: /shaders/vulkan-shaders/pbrLighting.vert.spv
+      FragmentShader: /shaders/vulkan-shaders/pbrLighting.frag.spv
+      Topology: 3
+      PolygonMode: 0
+      CullMode: 2
+      FrontFace: 0
+      Samples: 1
+      MultisamplingEnabled: false
+      BlendingEnabled: false
+      BlendingAdditive: false
+      BlendingAlpha: false
+      DepthTestEnabled: true
+      DepthWriteEnabled: true
+      DepthCompareOp: 6
+  - Material: 8408765025738625002
+    Name: part9
+    Texture: 3408104290112031311
+    MetallicTexture: 0
+    RoughnessTexture: 0
+    NormalTexture: 0
+    AoTexture: 0
+    Albedo: [1, 1, 1]
+    Metallic: 0
+    Roughness: 1
+    AO: 1
+    UseAlbedo: true
+    UseMetallic: false
+    UseRoughness: false
+    UseNormal: false
+    UseAO: false
+    PipelineInfo:
+      VertexShader: /shaders/vulkan-shaders/pbrLighting.vert.spv
+      FragmentShader: /shaders/vulkan-shaders/pbrLighting.frag.spv
+      Topology: 3
+      PolygonMode: 0
+      CullMode: 2
+      FrontFace: 0
+      Samples: 1
+      MultisamplingEnabled: false
+      BlendingEnabled: false
+      BlendingAdditive: false
+      BlendingAlpha: false
+      DepthTestEnabled: true
+      DepthWriteEnabled: true
+      DepthCompareOp: 6
+  - Material: 1879524707961403145
+    Name: part10
+    Texture: 9195696362344484936
+    MetallicTexture: 0
+    RoughnessTexture: 0
+    NormalTexture: 0
+    AoTexture: 0
+    Albedo: [1, 1, 1]
+    Metallic: 0
+    Roughness: 1
+    AO: 1
+    UseAlbedo: true
+    UseMetallic: false
+    UseRoughness: false
+    UseNormal: false
+    UseAO: false
+    PipelineInfo:
+      VertexShader: /shaders/vulkan-shaders/pbrLighting.vert.spv
+      FragmentShader: /shaders/vulkan-shaders/pbrLighting.frag.spv
+      Topology: 3
+      PolygonMode: 0
+      CullMode: 2
+      FrontFace: 0
+      Samples: 1
+      MultisamplingEnabled: false
+      BlendingEnabled: false
+      BlendingAdditive: false
+      BlendingAlpha: false
+      DepthTestEnabled: true
+      DepthWriteEnabled: true
+      DepthCompareOp: 6
+  - Material: 7167686702865763418
     Name: ""
-    Texture: 1946391685265307567
+    Texture: 10946645381958272178
     MetallicTexture: 0
     RoughnessTexture: 0
     NormalTexture: 0
@@ -100,4 +563,190 @@ Materials:
       BlendingAlpha: false
       DepthTestEnabled: false
       DepthWriteEnabled: false
+      DepthCompareOp: 6
+  - Material: 17668928678668893460
+    Name: part3
+    Texture: 15715231088612636769
+    MetallicTexture: 0
+    RoughnessTexture: 0
+    NormalTexture: 0
+    AoTexture: 0
+    Albedo: [1, 1, 1]
+    Metallic: 0
+    Roughness: 1
+    AO: 1
+    UseAlbedo: true
+    UseMetallic: false
+    UseRoughness: false
+    UseNormal: false
+    UseAO: false
+    PipelineInfo:
+      VertexShader: /shaders/vulkan-shaders/pbrLighting.vert.spv
+      FragmentShader: /shaders/vulkan-shaders/pbrLighting.frag.spv
+      Topology: 3
+      PolygonMode: 0
+      CullMode: 2
+      FrontFace: 0
+      Samples: 1
+      MultisamplingEnabled: false
+      BlendingEnabled: false
+      BlendingAdditive: false
+      BlendingAlpha: false
+      DepthTestEnabled: true
+      DepthWriteEnabled: true
+      DepthCompareOp: 6
+  - Material: 17631649665427068200
+    Name: part8
+    Texture: 9475910328733077684
+    MetallicTexture: 0
+    RoughnessTexture: 0
+    NormalTexture: 0
+    AoTexture: 0
+    Albedo: [1, 1, 1]
+    Metallic: 0
+    Roughness: 1
+    AO: 1
+    UseAlbedo: true
+    UseMetallic: false
+    UseRoughness: false
+    UseNormal: false
+    UseAO: false
+    PipelineInfo:
+      VertexShader: /shaders/vulkan-shaders/pbrLighting.vert.spv
+      FragmentShader: /shaders/vulkan-shaders/pbrLighting.frag.spv
+      Topology: 3
+      PolygonMode: 0
+      CullMode: 2
+      FrontFace: 0
+      Samples: 1
+      MultisamplingEnabled: false
+      BlendingEnabled: false
+      BlendingAdditive: false
+      BlendingAlpha: false
+      DepthTestEnabled: true
+      DepthWriteEnabled: true
+      DepthCompareOp: 6
+  - Material: 4
+    Name: Default
+    Texture: 0
+    MetallicTexture: 0
+    RoughnessTexture: 0
+    NormalTexture: 0
+    AoTexture: 0
+    Albedo: [1, 1, 1]
+    Metallic: 1
+    Roughness: 1
+    AO: 1
+    UseAlbedo: false
+    UseMetallic: false
+    UseRoughness: false
+    UseNormal: false
+    UseAO: false
+    PipelineInfo:
+      VertexShader: /shaders/vulkan-shaders/pbrLighting.vert.spv
+      FragmentShader: /shaders/vulkan-shaders/pbrLighting.frag.spv
+      Topology: 3
+      PolygonMode: 0
+      CullMode: 2
+      FrontFace: 0
+      Samples: 1
+      MultisamplingEnabled: false
+      BlendingEnabled: false
+      BlendingAdditive: false
+      BlendingAlpha: false
+      DepthTestEnabled: true
+      DepthWriteEnabled: true
+      DepthCompareOp: 6
+  - Material: 11788041676864218129
+    Name: part4
+    Texture: 7780656463292541893
+    MetallicTexture: 0
+    RoughnessTexture: 0
+    NormalTexture: 0
+    AoTexture: 0
+    Albedo: [1, 1, 1]
+    Metallic: 0
+    Roughness: 1
+    AO: 1
+    UseAlbedo: true
+    UseMetallic: false
+    UseRoughness: false
+    UseNormal: false
+    UseAO: false
+    PipelineInfo:
+      VertexShader: /shaders/vulkan-shaders/pbrLighting.vert.spv
+      FragmentShader: /shaders/vulkan-shaders/pbrLighting.frag.spv
+      Topology: 3
+      PolygonMode: 0
+      CullMode: 2
+      FrontFace: 0
+      Samples: 1
+      MultisamplingEnabled: false
+      BlendingEnabled: false
+      BlendingAdditive: false
+      BlendingAlpha: false
+      DepthTestEnabled: true
+      DepthWriteEnabled: true
+      DepthCompareOp: 6
+  - Material: 15745537795642360582
+    Name: part2
+    Texture: 11250493874203996171
+    MetallicTexture: 0
+    RoughnessTexture: 0
+    NormalTexture: 0
+    AoTexture: 0
+    Albedo: [1, 1, 1]
+    Metallic: 0
+    Roughness: 1
+    AO: 1
+    UseAlbedo: true
+    UseMetallic: false
+    UseRoughness: false
+    UseNormal: false
+    UseAO: false
+    PipelineInfo:
+      VertexShader: /shaders/vulkan-shaders/pbrLighting.vert.spv
+      FragmentShader: /shaders/vulkan-shaders/pbrLighting.frag.spv
+      Topology: 3
+      PolygonMode: 0
+      CullMode: 2
+      FrontFace: 0
+      Samples: 1
+      MultisamplingEnabled: false
+      BlendingEnabled: false
+      BlendingAdditive: false
+      BlendingAlpha: false
+      DepthTestEnabled: true
+      DepthWriteEnabled: true
+      DepthCompareOp: 6
+  - Material: 3109601647215950797
+    Name: part1
+    Texture: 852473424298458097
+    MetallicTexture: 0
+    RoughnessTexture: 0
+    NormalTexture: 0
+    AoTexture: 0
+    Albedo: [1, 1, 1]
+    Metallic: 0
+    Roughness: 1
+    AO: 1
+    UseAlbedo: true
+    UseMetallic: false
+    UseRoughness: false
+    UseNormal: false
+    UseAO: false
+    PipelineInfo:
+      VertexShader: /shaders/vulkan-shaders/pbrLighting.vert.spv
+      FragmentShader: /shaders/vulkan-shaders/pbrLighting.frag.spv
+      Topology: 3
+      PolygonMode: 0
+      CullMode: 2
+      FrontFace: 0
+      Samples: 1
+      MultisamplingEnabled: false
+      BlendingEnabled: false
+      BlendingAdditive: false
+      BlendingAlpha: false
+      DepthTestEnabled: true
+      DepthWriteEnabled: true
       DepthCompareOp: 6

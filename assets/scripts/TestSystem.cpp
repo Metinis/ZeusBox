@@ -2,10 +2,11 @@
 #include <ZeusEngineCore/scripting/ISystem.h>
 #include <ZeusEngineCore/engine/Scene.h>
 #include "components/Components.h"
+#include "ZeusEngineCore/core/Application.h"
 
-/*REGISTER_COMPONENT(Test,
+REGISTER_COMPONENT(Test,
     FIELD(Test, test),
-);*/
+);
 
 class TestSystem : public ZEN::ISystem {
     ~TestSystem() override = default;
